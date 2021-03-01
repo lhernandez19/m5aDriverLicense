@@ -1,7 +1,5 @@
 package edu.wctc;
 
-import java.time.DateTimeException;
-import java.time.LocalDate;
 import java.util.Scanner;
 
 public class Main {
@@ -57,52 +55,6 @@ public class Main {
 
     }
 
-//    public static LocalDate getDate() throws Exception{
-//        System.out.print("Enter year: ");
-//        int year = Integer.parseInt(keyboard.nextLine());
-//
-//        System.out.print("Enter month (1 - 12): ");
-//        int month = Integer.parseInt(keyboard.nextLine());
-//
-//        System.out.print("Enter day of birth ( 1 - 28/31): ");
-//        int day = Integer.parseInt(keyboard.nextLine());
-//
-//        try {
-//            LocalDate date = LocalDate.of(year, month, day);
-//            return date;
-//        } catch (DateTimeException ex) {
-//            Exception e = new Exception("Not a valid date");
-//            throw e;
-//        }
-//    }
 
-//    public static void getGender() throws Exception {
-//        System.out.print("Enter gender code (M or F): ");
-//        String genderCode = keyboard.nextLine();
-//
-//        try{
-//            return ;
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//
-//    }
-
-//    public static void getName() throws Exception{
-//        System.out.print("Enter first name: ");
-//        String firstName = keyboard.nextLine();
-//
-//        System.out.print("Enter middle initial: ");
-//        String middleInitial = keyboard.nextLine();
-//
-//        System.out.print("Enter last name: ");
-//        String lastName = keyboard.nextLine();
-//
-//        try{
-//            return ;
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
 
 }
